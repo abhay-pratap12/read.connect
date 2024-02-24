@@ -1,5 +1,7 @@
 import { useState } from "react";
 import hambuger from "../utils/images/hambuger.png"
+import { Link } from "react-router-dom";
+import logo from "../utils/images/bookCon.png"
 
 const Header = () => {
 
@@ -14,22 +16,26 @@ console.log(hidden)
 
   return (
     <div className="drop-shadow-md sticky top-0">
-      <nav className="flex bg-blue-100 justify-between lg:px-32 px-9 font-sans font-semibold ">
+      <nav className="flex bg-blue-300 justify-between lg:px-32 px-9 font-sans font-semibold ">
         <div className="left flex py-2 m-1">
-          <div className="py-2 my-1 lg:mx-4  mx-0">logo</div>
+          <div className="  mx-0">
+            <img className="w-10" src={logo} />
+          </div>
+          {/* kuchunique sa create kr skte hain logo pr click kre toh */}
           {/* <div className="p-2 m-1">
                         explore
                     </div> */}
         </div>
         <div>
           <ul className="right lg:flex p-2 m-1 hidden">
-            <li className="p-2 my-1 mx-6">Home</li>
+            <Link to={'/'}><li className="p-2 my-1 mx-6">Home</li></Link>
             <li className="p-2 my-1 mx-6">About</li>
-            <li className="p-2 my-1 mx-6">Shop</li>
+            <Link to={'/library'}><li className="p-2 my-1 mx-6">Library</li></Link>
+            <Link to={'/recommended'}><li className="p-2 my-1 mx-6">Recommended</li></Link>
           </ul>
         </div>
         <div className="flex">
-        <div className="p-4 my-2 mx-4">Sell</div>
+        <Link to={'/signIn'}><div className="p-4 my-2 mx-4">Sell | Exchange</div></Link>
       <button className="lg:hidden block hover:cursor-pointer" onClick={clickHandle}>
         <img className="w-6" src={hambuger} />
       </button>
@@ -37,9 +43,10 @@ console.log(hidden)
       </nav>
         <div className = {`hamburger ${hidden} bg-blue-100 flex-col justify-center`}>
           <ul className="flex flex-col w-1/2">
-            <li className="p-2 my-1 mx-6">Home</li>
-            <li className="p-2 my-1 mx-6">About</li>
-            <li className="p-2 my-1 mx-6">Shop</li>
+            <Link to={'/'}><li className="p-2 my-1 mx-6">Home</li></Link>
+            <Link to={'/about'}><li className="p-2 my-1 mx-6">About</li></Link>
+            <Link to={'/library'}><li className="p-2 my-1 mx-6">Library</li></Link>
+            <Link to={'/recommended'}><li className="p-2 my-1 mx-6">Recommended</li></Link>
           </ul>
         </div>
     </div>

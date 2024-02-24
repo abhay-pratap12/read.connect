@@ -1,0 +1,1 @@
+export const IMG_URL = "https://firebasestorage.googleapis.com/v0/b/d-str-a8356.appspot.com/o/files%2F"
