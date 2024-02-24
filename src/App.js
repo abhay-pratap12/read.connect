@@ -16,6 +16,7 @@ import BookOverview from "./Pages/BookOverview";
 import RecommendedBooks from "./Pages/RecommendedBooks";
 import ReadersPage from "./Pages/ReadersPage";
 import Library from "./Pages/Library";
+import Shimmer from "./component/Shimmer"
 
 // const authentication = auth;
 //why this required
@@ -65,17 +66,21 @@ const AppRouter = createBrowserRouter([
         element: <AddToStore />,
       },
       {
-        path:'/library',
-        element: <Library />
+        path: "/library",
+        element: <Library />,
       },
       {
-        path:"/book/:resId",
-        element: <BookOverview />
+        path: "/book/:resId",
+        element: <BookOverview />,
       },
       {
-path: '/recommended',
-element: <RecommendedBooks />
-      }
+        path: "/recommended",
+        element: <RecommendedBooks />,
+      },
+      {
+        path: "/shimmer",
+        element: <Shimmer />,
+      },
     ],
   },
 ]);
