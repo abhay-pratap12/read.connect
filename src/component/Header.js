@@ -28,14 +28,14 @@ console.log(hidden)
         </div>
         <div>
           <ul className="right lg:flex p-2 m-1 hidden">
-            <Link to={'/'}><li className="p-2 my-1 mx-6">Home</li></Link>
-            <li className="p-2 my-1 mx-6">About</li>
-            <Link to={'/library'}><li className="p-2 my-1 mx-6">Library</li></Link>
-            <Link to={'/recommended'}><li className="p-2 my-1 mx-6">Recommended</li></Link>
+            <Link to={'/'}><li className="p-2 my-1 mx-6 hover:bg-white rounded-2xl">Home</li></Link>
+            <li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">About</li>
+            <Link to={'/library'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Library</li></Link>
+            <Link to={'/recommended'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Recommended</li></Link>
           </ul>
         </div>
         <div className="flex">
-        <Link to={'/signIn'}><div className="p-4 my-2 mx-4">Sell | Exchange</div></Link>
+        <Link to={'/signIn'}><div className="p-4 my-2 mx-4  hover:bg-white rounded-2xl">Post</div></Link>
       <button className="lg:hidden block hover:cursor-pointer" onClick={clickHandle}>
         <img className="w-6" src={hambuger} />
       </button>
@@ -43,10 +43,10 @@ console.log(hidden)
       </nav>
         <div className = {`hamburger ${hidden} bg-blue-100 flex-col justify-center`}>
           <ul className="flex flex-col w-1/2">
-            <Link to={'/'}><li className="p-2 my-1 mx-6">Home</li></Link>
-            <Link to={'/about'}><li className="p-2 my-1 mx-6">About</li></Link>
-            <Link to={'/library'}><li className="p-2 my-1 mx-6">Library</li></Link>
-            <Link to={'/recommended'}><li className="p-2 my-1 mx-6">Recommended</li></Link>
+            <Link to={'/'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Home</li></Link>
+            <Link to={'/about'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">About</li></Link>
+            <Link to={'/library'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Library</li></Link>
+            <Link to={'/recommended'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Recommended</li></Link>
           </ul>
         </div>
     </div>
