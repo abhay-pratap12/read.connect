@@ -50,10 +50,10 @@ const Blog =()=>{
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
             {/* <a href="#"> */}
               {/* <span className="absolute inset-0"></span> */}
-              Boost your conversion rate
+              It build connection 
             {/* </a> */}
           </h3>
-          <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
+          <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600"> The platform builds connections by implementing various features and strategies to foster user interaction and engagement. Here are some ways it builds connections</p>
         </div>
         <div className=" mt-8 flex items-center gap-x-4">
           <img src={shivam} alt="taufiq" className="h-10 w-10 rounded-full bg-gray-50" />
