@@ -25,7 +25,8 @@ const Blog =()=>{
               Concept of vitrual library
             </a>
           </h3>
-          <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600"></p>
+          <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">"This is the platform where readers all across the internet can connect
+          to each other and share their experience and knowledge and contribute to this beautiful platform."</p>
         </div>
         <div className=" mt-8 flex items-center gap-x-4">
           <img src={abhay} alt="abhay" className="h-10 w-10 rounded-full bg-gray-50" />

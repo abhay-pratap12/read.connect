@@ -8,7 +8,9 @@ const Hero = () =>{
         className=" h-full lg:w-full w-screen flex justify-center text-[1.1rem]
            flex-wrap lg:flex-nowrap"
       >
-        <div className="lg:w-4/6 px-8 text-gray-800 w-full">
+  
+
+        <div className="lg:w-4/6 px-8 text-gray-800 w-full h-[400px]">
           <h1 className="lg:pl-32 pl-1 mt-16 font-bold text-4xl">
             We're changing the way you{" "}
             <span id="element" className="text-blue-400">
@@ -31,6 +33,7 @@ const Hero = () =>{
 
           </button>
           </Link>
+    
         </div>
         <div className="lg:pr-32 pr-1 w-4/6">
           <img className="" src={hero} />
