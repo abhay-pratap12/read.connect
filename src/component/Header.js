@@ -35,7 +35,7 @@ console.log(hidden)
           </ul>
         </div>
         <div className="flex">
-        <Link to={'/signIn'}><div className="py-4 my-2 mx-3  hover:bg-white rounded-2xl">Post</div></Link>
+        <Link to={'/signIn'}><div className="py-2 my-4 mx-3 px-1 hover:bg-white rounded-2xl">Post your books</div></Link>
       <button className="lg:hidden block hover:cursor-pointer" onClick={clickHandle}>
         <img className="w-6" src={hambuger} />
       </button>

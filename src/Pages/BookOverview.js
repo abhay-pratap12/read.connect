@@ -40,7 +40,7 @@ toggle == 'hidden' ? setToggle('block') : setToggle('hidden')
   <div class="mx-auto max-w-5xl px-5 py-24">
     <div class="mx-auto flex flex-wrap items-center lg:w-full">
       <img
-        alt="Nike Air Max 21A"
+        alt="book"
         class="h-full w-full rounded object-cover lg:h-1/6 lg:w-1/4 "
         src={`${IMG_URL}${ImgVal}?alt=media&token`}
         

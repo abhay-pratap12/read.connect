@@ -24,9 +24,8 @@ const HomeCardContainer = () => {
         <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
         Choose your Books
         </h2>
-        <p className="mt-2 text-lg leading-8 text-gray-600">
-          Know about 
-        </p>
+        <p className="mt-2 text-lg leading-8 text-gray-600">Learnings of books posted by our Readers</p> <span className="text-blue-400">You can also post your learnings → 
+      <Link to={'/signUp'}><span className="hover:underline"> Click to post your book</span></Link></span>
       </div>
       <div className="border-b-[1px] my-10">
 
