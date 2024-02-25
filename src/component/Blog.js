@@ -21,7 +21,7 @@ const Blog =()=>{
         <div className="group">
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
             <a href="#">
-              <span className="absolute inset-0"></span>
+              {/* <span className="absolute inset-0"></span> */}
               Concept of vitrual library
             </a>
           </h3>
@@ -31,10 +31,10 @@ const Blog =()=>{
           <img src={abhay} alt="abhay" className="h-10 w-10 rounded-full bg-gray-50" />
           <div className="text-sm leading-6">
             <p className="font-semibold text-gray-900">
-              <a href="#">
-                <span className="absolute inset-0"></span>
+              {/* <a href="#"> */}
+                {/* <span className="absolute inset-0"></span> */}
                Abhay Pratap Maurya
-              </a>
+              {/* </a> */}
             </p>
             <p className="text-gray-600">AR/VR | ML</p>
           </div>
@@ -47,10 +47,10 @@ const Blog =()=>{
         </div>
         <div className="group">
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="#">
-              <span className="absolute inset-0"></span>
+            {/* <a href="#"> */}
+              {/* <span className="absolute inset-0"></span> */}
               Boost your conversion rate
-            </a>
+            {/* </a> */}
           </h3>
           <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">Illo sint voluptas. Error voluptates culpa eligendi. Hic vel totam vitae illo. Non aliquid explicabo necessitatibus unde. Sed exercitationem placeat consectetur nulla deserunt vel. Iusto corrupti dicta.</p>
         </div>
@@ -59,7 +59,7 @@ const Blog =()=>{
           <div className="text-sm leading-6">
             <p className="font-semibold text-gray-900">
               <a href="#">
-                <span className="absolute inset-0"></span>
+                {/* <span className="absolute inset-0"></span> */}
                 Shivam Kumar
               </a>
             </p>
@@ -74,10 +74,10 @@ const Blog =()=>{
         </div>
         <div className="group">
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="#">
-              <span className="absolute inset-0"></span>
+            {/* <a href="#"> */}
+              {/* <span className="absolute inset-0"></span> */}
               Concept of vitrual library
-            </a>
+            {/* </a> */}
           </h3>
           <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">"Virual library is an online platform where all readers share there knowledge, learning and experience of the book and post it which encourage other readers to read."</p>
         </div>
@@ -85,10 +85,10 @@ const Blog =()=>{
           <img src={taufiq} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
           <div className="text-sm leading-6">
             <p className="font-semibold text-gray-900">
-              <a href="#">
-                <span className="absolute inset-0"></span>
+              {/* <a href="#"> */}
+                {/* <span className="absolute inset-0"></span> */}
                 Taufiq Hassan
-              </a>
+              {/* </a> */}
             </p>
             <p className="text-gray-600">Front-End / Back-End</p>
           </div>
@@ -101,10 +101,10 @@ const Blog =()=>{
         </div>
         <div className="group">
           <h3 className="mt-3 text-lg font-semibold leading-6 text-gray-900 group-hover:text-gray-600">
-            <a href="#">
-              <span className="absolute inset-0"></span>
+            {/* <a href="#"> */}
+              {/* <span className="absolute inset-0"></span> */}
               User Interaction 
-            </a>
+            {/* </a> */}
           </h3>
           <p className="mt-5 line-clamp-3 text-sm leading-6 text-gray-600">it is a platform where readers can interact with readers and can discuss about their thoughts.
           and encouring a collaborative and social reading experience or promotive discussion around perspective on literature.</p>
@@ -113,10 +113,10 @@ const Blog =()=>{
           <img src={janhwee} alt="" className="h-10 w-10 rounded-full bg-gray-50" />
           <div className="text-sm leading-6">
             <p className="font-semibold text-gray-900">
-              <a href="#">
-                <span className="absolute inset-0"></span>
+              {/* <a href="#"> */}
+                {/* <span className="absolute inset-0"></span> */}
                 Janhwee Pandey
-              </a>
+              {/* </a> */}
             </p>
             <p className="text-gray-600">Content Writing</p>
           </div>
