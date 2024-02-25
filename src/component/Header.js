@@ -31,7 +31,7 @@ console.log(hidden)
             <Link to={'/'}><li className="p-2 my-1 mx-6 hover:bg-white rounded-2xl">Home</li></Link>
             <Link to={'/about'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">About</li></Link>
             <Link to={'/library'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Library</li></Link>
-            <Link to={'/recommended'}><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Recommended</li></Link>
+            <a href="https://readconnect-bookrecommendation-com.onrender.com/"><li className="p-2 my-1 mx-6  hover:bg-white rounded-2xl">Recommended</li></a>
           </ul>
         </div>
         <div className="flex">

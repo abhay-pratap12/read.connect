@@ -13,7 +13,7 @@ import AddToStore from "./Pages/AddToStore";
 import Shop from "./Pages/Library";
 import HomeCardContainer from "./component/HomeCardContainer";
 import BookOverview from "./Pages/BookOverview";
-import RecommendedBooks from "./Pages/RecommendedBooks";
+// import RecommendedBooks from "./Pages/RecommendedBooks";
 import ReadersPage from "./Pages/ReadersPage";
 import Library from "./Pages/Library";
 import Shimmer from "./component/Shimmer"
@@ -79,10 +79,6 @@ const AppRouter = createBrowserRouter([
       {
         path: "/book/:resId",
         element: <BookOverview />,
-      },
-      {
-        path: "/recommended",
-        element: <RecommendedBooks />,
       },
       {
         path: "/about",
