@@ -33,8 +33,8 @@ const HomeCardContainer = () => {
       </div>
 
       <div className="flex justify-center">
-        <div className=" lg:py-2 flex w-full flex-wrap">
-          {bookRef.slice(0, 4).map((c) => {
+        <div className=" lg:py-2 flex w-full flex-wrap border-b-[1px]">
+          {bookRef.slice(0, 8).map((c) => {
             return (
               <Link
                 to={

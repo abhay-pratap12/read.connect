@@ -28,7 +28,7 @@ useEffect(()=>{
         setCheckid(true)
       } else {
         prompt("You are Sign Out");
-        // setCheckid(false)
+        setCheckid(false)
       }
     });
 },[])
@@ -49,7 +49,7 @@ useEffect(()=>{
         <div className="lg:mx-40 lg:my-10 m-2">
             <div className="flex justify-between m-6 border-b-2 p-4 flex-wrap my-2">
             <h2 className="font-bold text-3xl lg:m-0 my-6 ">Your BookShelf</h2>
-           { checkid == false ?<div>not be able to add</div> : <Link to={'/add'}><div className="bg-slate-200 w-[200px] py-2 px-4 rounded-lg border-b-2 ">Add to your <span className="text-blue-500 font-semibold">BookShelf</span></div></Link>}
+           { checkid == false ? <div>not be able to add</div> : <Link to={'/add'}><div className="bg-slate-200 w-[200px] py-2 px-4 rounded-lg border-b-2 ">Add to your <span className="text-blue-500 font-semibold">BookShelf</span></div></Link>}
             </div>
             {sellersBookRef.filter((c)=> c._document.data.value.mapValue.fields.userId.stringValue == `${userid}`).map((c)=><ReadersCard details={c._document.data.value.mapValue.fields}/>)}
            

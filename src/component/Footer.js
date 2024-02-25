@@ -3,7 +3,7 @@ import logo from "../utils/images/bookCon.png"
 const Footer = (props) => {
 
   return (
-    <div>
+    <div className="border-t-[1px]">
      <section class="relative overflow-hidden bg-white py-8 lg:mx-32">
   <div class="container relative z-10 mx-auto px-4">
     <div class="-m-8 flex flex-wrap items-center justify-between">
@@ -20,16 +20,16 @@ const Footer = (props) => {
           </li>
           <li class="p-5">
             <a class="font-medium text-gray-600 hover:text-gray-700" href="#">
-              Terms of Service
+            © read.connect
             </a>
           </li>
           <li class="p-5">
-            <a class="font-medium text-gray-600 hover:text-gray-700" href="#">
-              fvyhjf
+            <a class="font-medium text-gray-600 hover:text-gray-700" href="https://discord.com/invite/ddYnn3cB">
+              Community
             </a>
           </li>
           <li class="p-5">
-            <a class="font-medium text-gray-600 hover:text-gray-700" href="#">
+            <a class="font-medium text-gray-600 hover:text-gray-700" href="/about">
               Contact Us
             </a>
           </li>
