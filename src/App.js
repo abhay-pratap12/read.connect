@@ -17,6 +17,10 @@ import RecommendedBooks from "./Pages/RecommendedBooks";
 import ReadersPage from "./Pages/ReadersPage";
 import Library from "./Pages/Library";
 import Shimmer from "./component/Shimmer"
+import Footer from "./component/Footer";
+import About from "./Pages/About";
+import Blog from "./component/Blog";
+import Hero from "./component/Hero";
 
 // const authentication = auth;
 //why this required
@@ -26,6 +30,9 @@ const Body = () => {
     <div>
       <Banner />
       <HomeCardContainer />
+      <Hero />
+      <Blog />
+      <Footer />
     </div>
   );
 };
@@ -76,6 +83,10 @@ const AppRouter = createBrowserRouter([
       {
         path: "/recommended",
         element: <RecommendedBooks />,
+      },
+      {
+        path: "/about",
+        element: <About />,
       },
       {
         path: "/shimmer",

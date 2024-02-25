@@ -10,15 +10,15 @@ const SignUp = () => {
   //userSignUp
   const setUser = () => {
     const auth = getAuth();
-    password == "" ? prompt("not possible") :
+    // password == "" ? prompt("not possible") :
      createUserWithEmailAndPassword(auth, email, password)
           .then((userCredential) => {
-            console.log(userCredential);
+            // console.log(userCredential);
             const user = userCredential.user;
-            console.log(user);
+            // console.log(user);
           })
           .catch((err) => {
-            prompt("something wnet wrong", err.message);
+            prompt("something went wrong", err.message);
           });
   };
 
@@ -90,7 +90,7 @@ const SignUp = () => {
             </div>
 
             <div>
-            <Link to={'/reader'}>
+            <Link to={'/signin'}>
               <button
                 onClick={setUser}
                 className="flex w-full justify-center rounded-md bg-slate-400 px-3 py-1.5 text-sm font-semibold leading-6 text-white shadow-sm hover:bg-blue-100 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-slate-400"

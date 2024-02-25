@@ -36,6 +36,8 @@ const AddToStore = () => {
     });
   }, []);
 
+  // userid == '' ? clickHandle = () =>{console.log('na')} 
+
   const clickHandle = async () => {
     //to upload image to storage
     const val = v4();
