@@ -4,7 +4,8 @@
   "description": "",
   "scripts": {
     "start": "parcel index.html",
-    "build": "build parcel index.html"
+    "build": "build parcel index.html",
+    "build-prod": "parcel build ./index.html --dist-dir build"
   },
   "author": "",
   "license": "ISC",
