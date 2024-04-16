@@ -1,7 +1,8 @@
 import { IMG_URL } from "../utils/const/IMG_URL"
 
-const Card = ({details}) =>{
-
+const Card = (props) =>{
+    console.log("dekho kya inside wali value aayi ",props)
+const {details} = props
 console.log(details)
 const {Author, Category, Discription, ImgVal, TitleOfBook, userId , Rating} = details
     return (

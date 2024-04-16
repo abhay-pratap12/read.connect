@@ -72,12 +72,7 @@ toggle == 'hidden' ? setToggle('block') : setToggle('hidden')
     </div>
   </div>
 </section>
-<div className={`${toggle}`}>
-<ConnectToReader ig={instaId}/>
 </div>
-<WhyToConnect />
-
-        </div>
     )
 }
 

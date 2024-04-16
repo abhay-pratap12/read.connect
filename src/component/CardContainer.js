@@ -31,10 +31,11 @@ console.log('bookref',bookRef)
             <div className="flex justify-center">
             <div className="p-4 flex flex-wrap w-5/6 justify-between">
 {bookRef.map((c)=>{
-    return <Link to={'/book/'+c._document.data.value.mapValue.fields.bId.stringValue}><Card details={c._document.data.value.mapValue.fields}/></Link>
+    return <Link to={'/book/'+c._document.data.value.mapValue.fields.bId.stringValue}><Card details={c._document.data.value.mapValue.fields}>hello</Card></Link>
 })}
             </div>
             </div>
+        
 
         </div>
     )
